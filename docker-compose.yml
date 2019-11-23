@@ -1,4 +1,5 @@
 run:
   build: .
   volumes:
-    - ./src:/src
+    - ./src/pom.xml:/src/pom.xml
+    - ./out:/out
